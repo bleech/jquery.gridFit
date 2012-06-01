@@ -1,0 +1,12 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: Jan Geselle
+  Company: bleech UG
+  Site: http://bleech.de/
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery

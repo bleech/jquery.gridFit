@@ -1,0 +1,68 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>bleech | gridFit</title>
+  <meta name="description" content="Force your block elements to squezze nicely into your grid of desired dimensions.">
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header>
+    <h1>gridFit jQuery Plugin <small>by bleech</small></h1>
+  </header>
+  <div role="main">
+    <div class="example">
+
+      <p>The gridFit plugin enables you to let any block fit exactly into a custom grid that you can define at initialisation.</p>
+      <p class="view"><a href="https://github.com/bleech/jquery.gridFit">View the Project on GitHub <small>bleech/jquery.gridFit</small></a></p>
+      <h2 id="features">Features</h2>
+      <ul>
+      <li>target any block element</li>
+      <li>define a grid by setting the height and width of one unit</li>
+      <li>support for nested grid elements</li>
+      <li>margin and padding aware</li>
+      </ul>
+      <h2 id="usage">Usage</h2>
+      <p>Include the plugin file and then simply select one or more elements and execute gridFit.</p>
+      <p>Example for an element with the class <em>example</em> and a desired unit size of 20px in width and 40px in height:</p>
+      <pre><code>$(&#39;.example&#39;).gridFit( 20, 40 );</code></pre>
+      <h2 id="example">Example</h2>
+      <p>Resize your browser to see how the elements below change their size according to our grid.</p>
+      <div id="example-div"></div>
+      <p>Tileset by <a href="http://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline" target="_blank">OpenGameArt</a>.</p>
+    </div>
+
+    <p class="dl">
+      <a href="https://github.com/bleech/jquery.gridFit/zipball/master">Download</a>
+    </p>
+
+  </div>
+  <footer>
+    <p>This project is maintained by <a href="https://github.com/bleech">bleech</a></p>
+  </footer>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="js/plugins.js"></script>
+  <script src="https://raw.github.com/bleech/jquery.gridFit/master/dist/jquery.gridFit.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
